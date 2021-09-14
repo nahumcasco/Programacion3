@@ -52,6 +52,12 @@
     <Compile Include="Funciones.Designer.cs">
       <DependentUpon>Funciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="FuncionesDeFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncionesDeFecha.Designer.cs">
+      <DependentUpon>FuncionesDeFecha.cs</DependentUpon>
+    </Compile>
     <Compile Include="FuncionesDeTexto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Funciones.resx">
       <DependentUpon>Funciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuncionesDeFecha.resx">
+      <DependentUpon>FuncionesDeFecha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FuncionesDeTexto.resx">
       <DependentUpon>FuncionesDeTexto.cs</DependentUpon>
