@@ -45,6 +45,8 @@ namespace Ejercicio1
             //Primer Letra en Mayúscula
             PrimeraMextBox.Text = cadena.Substring(0, 1).ToUpper() + cadena.Substring(1, cadena.Length -1).ToLower();
 
+
+
         }
     }
 }

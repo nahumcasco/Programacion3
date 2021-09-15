@@ -47,10 +47,11 @@ namespace Ejercicio1
 
             int edad;
 
-            if (_fechaNacimiento.Day >= _fechaActual.Day)
+            if (_fechaNacimiento >= _fechaActual)
             {
                 return 0;
             }
+            else
             {
                 edad = _fechaActual.Year - _fechaNacimiento.Year;
                 if (_fechaNacimiento.Month > _fechaActual.Month)
