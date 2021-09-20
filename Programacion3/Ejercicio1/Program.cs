@@ -16,7 +16,7 @@ namespace Ejercicio1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FuncionesDeFecha());
+            Application.Run(new FuncionesAsincronas());
         }
     }
 }
