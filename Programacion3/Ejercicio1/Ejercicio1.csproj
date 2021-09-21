@@ -70,6 +70,12 @@
     <Compile Include="FuncionesDeTexto.Designer.cs">
       <DependentUpon>FuncionesDeTexto.cs</DependentUpon>
     </Compile>
+    <Compile Include="FuncionesRecursivas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncionesRecursivas.Designer.cs">
+      <DependentUpon>FuncionesRecursivas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Funciones.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FuncionesDeTexto.resx">
       <DependentUpon>FuncionesDeTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuncionesRecursivas.resx">
+      <DependentUpon>FuncionesRecursivas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
